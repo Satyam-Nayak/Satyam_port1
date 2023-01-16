@@ -272,6 +272,10 @@ button, input{
     display: none;
 }
 
+.home__title{
+    font-size: var(--biggest-font-size);
+}
+
 .my__info {
     display: flex;
     column-gap: 1.8rem;
@@ -292,6 +296,12 @@ button, input{
 
 .info__title {
     font-weight: var(--font-medium);
+}
+
+.info__icon {
+    font-size: 1.8rem;
+    color: var(--skin-color);
+    margin-right: var(--mb-0-75);
 }
 
 /*===== Buttons =====*/
